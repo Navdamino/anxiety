@@ -18,8 +18,6 @@ n: _YOU_ ARE THE ANXIETY
 (#act1_normal)
 {{/if}}
 
-
-
 # act1_replay
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
@@ -88,7 +86,6 @@ b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
 
 (#act1_replay_end)
 
-
 #act1_replay_alternate
 
 ```
@@ -103,7 +100,6 @@ h: Sure, the story as a *whole* is the same, but each chapter has two possible e
 b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
 
 (#act1_replay_end)
-
 
 # act1_replay_dissonance
 
@@ -135,7 +131,6 @@ b: Thus unraveling the fabric of this narrative universe,
 b: And then we'll--
 
 (#act1_replay_end)
-
 
 # act1_replay_end
 
@@ -180,23 +175,21 @@ bb({body:"squeeze"});
 
 (#act1_normal_choice)
 
-
-
 # act1_normal
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: Oh good, my wolf's back. C'mon!!!!!!!!!!!!hsihtifurbfufkehrfk.
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
 n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
 
-n: QUICK, WARN THEM!
+n: QUICK, WAR
 
 ```
 sfx("squeak");
@@ -609,7 +602,6 @@ h: What's new on Twitter?
 
 [Hey, a GIF of a cat drinking milk](#act1d_milk)
 
-
 # act1d_news
 
 ```
@@ -660,7 +652,6 @@ h: Okay I'll retweet it just please be quiet!
 h: Screw it, let's look at Snapchat.
 
 (#act1e)
-
 
 # act1d_subtweet
 
@@ -743,7 +734,6 @@ attack("18p", "bad");
 ```
 
 (...2500)
-
 
 `_.catmilk=true`
 
@@ -862,7 +852,6 @@ Game.OVERRIDE_TEXT_SPEED = 2.5;
 
 b: SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY N-
 
-
 ```
 bb({body:"normal", eyes:"fear", mouth:"normal"});
 hong({mouth:"shock", eyes:"shock"});
@@ -913,7 +902,6 @@ h: Maybe I shouldn't have said no to the invite?
 b: Everybody was counting on us!
 
 b: ...to leave them alone and let them have a nice party without a horrible disgusting {{if _.whitebread}}white-bread-munching{{/if}} creep like u--
-
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1120,7 +1108,6 @@ b: Well, I mean, loneliness *can* kill us.
 b: It's too crowded. Crowds are dangerous.
 
 (#act1e_yes_changetono)
-
 
 # act1f
 
