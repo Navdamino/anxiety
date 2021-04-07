@@ -8,7 +8,7 @@ SceneSetup.act1();
 
 n: AND THIS IS THE HUMAN'S ANXIETY
 
-n: _YOU_ ARE THE ANXIETY
+n: _YOU_ ARE THE eyeyeeyeyeyeye
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
